@@ -1,0 +1,85 @@
+
+
+.open-sans-normal {            /*(class er moddeh[part:2])*/
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style(r k color kora hoiyehche) */
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color:white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+/* header */
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+
+/* Nav style [part:1]*/
+nav{
+    display: flex;
+    align-items: center; /*( [part:8] babar bacck k x okkoh borabor center korah hoiyeche{nav babr bap}) */
+    justify-content: space-between;/* [part:9] */
+    margin: o 200px ;
+    
+}
+/* [part:3] */
+.nav title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+/* [part:7](Abba k dhoreh bacca k pasha pashi anah hoiyeh or felx) */
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+/* ([part:4]{fotah or bindoh takh shoranoh hoiyehche}) */
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+/* ([part:5]{under line takh shorano hoiyeche}) */
+nav li a{
+    text-decoration: none;
+}
+
+/* ([part:6]portfolio,Blog er color change kora hoiyehche)[note:anchor er moddeh href er ageh class name diteh hobh nahoi change hobhena bujchos alo bulakkat] */
+.dark-2{
+    color: #474747;
+}
+/* Banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-er-profile-pic{
+    width: 580px;
+}
